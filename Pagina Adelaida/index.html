@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <meta name="author" content="Santiago Celis y Sofia Ospina">
+    <meta name="description"
+        content="Esta es una pagina tipo onepage de cafe con diseño responsivo que tiene como fin destacar y practicar habilidades aprendidas de css" />
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-up.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/profile.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/menu.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/27b2bfea36.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    
+
+    <div class="nav" id="Inicio" >
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        
+            <ul>
+                <li><a href="#landpage">Inicio</a></li>
+                <li><a href="#Nosotros">¿Quienes somos?</a></li>
+                <li><a href="#Productos">Productos</a></li>
+                <li><a href="#Opiniones">Reseñas</a></li>
+                <li><a href="#Contacto">Contactanos</a></li>
+                <li><a href="#Redes">Redes y mas</a></li>
+            </ul>
+        
+            
+        </div>
+        
+    <div class="landpage" id="landpage">
+
+        <div class="Presentacion">
+            <h1>Bienvenido</h1>
+            <p>Aqui Gozaras de todo nuestros deliciosos cafes, con multiples experiencias para todos los gustos y
+                paladares.</p>
+        </div>
+
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img src="./Media/Producto1.jpg" alt="" id="slide-1">
+                <img src="./Media/Producto2.jpeg" alt="" id="slide-2">
+                <img src="./Media/Producto3.jpeg" alt="" id="slide-3">
+                <img src="./Media/Producto4.jpg" alt="" id="slide-4">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="Nosotros" id="Nosotros">
+        
+        <video autoplay loop muted plays-inline class="video-fondo">
+            <source src="./Media/CafeVideo.mp4" type="video/mp4">
+        </video>
+
+        <div class="Titulo">
+            <h1>¿Quienes Somos?</h1>
+        </div>
+
+        <div class="descripciones">
+
+            <div class="Descripcion" id="Carta1">
+                <h1>¿Que vendemos?</h1>
+                <p>Nuestro producto principal es el cafe, nos centramos en dar la mejor calidad de cafe consumible que
+                    nuestros locales puedan brindar, ofreciendo una experiencia inigualable a la hora de tomar uno en
+                    nuestros locales o comprando cualquiera de nuestros productos</p>
+            </div>
+
+            <div class="Descripcion" id="Carta2" >
+                <h1>¿Nuestro objetivo?</h1>
+                <p>El objetivo de nuestra empresa es el de proveer cafe de calidad inigualable y brindar a nuestros consumidores una experiencia sensorial de degustacion en su paladar, volviendonos competentes con cualquier otra gran marca de cafe que pueda ser reconocible</p>
+            </div>
+
+            <div class="Descripcion" id="Carta3">
+                <h1>¿De donde es el cafe?</h1>
+                <p>Nuestro cafe proviene de lugares predilectos escogidos por las grandes cabecillas que conforman nuestra empresa. Mayormente estos provienen de campos naturales ubicados en colombia y brasil, siendo estas reconocidas a nivel mundial por ser numero uno en exportacion y sabor de café</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ?Productos -->
+
+    <div class="Productos" id="Productos">
+
+        <h1>PRODUCTOS</h1>
+
+        <div class="Cartas">
+
+            <div class="Carta">
+                <img src="./Media/Producto1.jpg" alt="" >
+                <h2>"Ronda de chisme"</h2>
+                <p>Bandeja con cuatro cafes al gusto, ideal para grupos de personas quienes disfrutan de una buena conversacion mientras disfrutan de un café. (Precio varia segun el cafe ordenado)</p>
+                <h3>$20.000</h3>
+            </div>
+            <div class="Carta">
+                <img src="./Media/Producto2.jpeg" alt="">
+                <h2>Café expresso</h2>
+                <p>Cafe negro expresso fuertemente cargado, pensado para aquellos que desean rendir largas horas despiertos haciendo cualquier tipo de actividad.</p>
+                <h3>$4.000</h3>
+            </div>
+            <div class="Carta">
+                <img src="./Media/Producto3.jpeg" alt="">
+                <h2>Caramel whisper</h2>
+                <p>Un Frappe de caramelo de tamaño mediano, recomendado para acompañar algun postre o tipo de panaderia que desees.</p>
+                <h3>$8.000</h3>
+            </div>
+            <div class="Carta">
+                <img src="./Media/Producto4.jpg" alt="">
+                <h2>Cinnamon Latte</h2>
+                <p>Café latte de un tamaño grande con toques de canela ademas de un pequeño espolvoreado de canela sobre su crema, para amantes de los cafes dulces.</p>
+                <h3>10.000</h3>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ?Reseñas -->
+
+    <div class="Opiniones" id="Opiniones">
+        <h1>ALGUNAS RESEÑAS</h1>
+
+        <div class="Cartas">
+
+            <div class="Carta">
+                <img src="./Media/profile.svg" alt="">
+                <h2>Andres Restrepo</h2>
+                <p>!Me encantó¡, una experiencia digna de los amantes del cafe, con un sabor que tiene bastante cuerpo y se disfruta cada sorbo</p>
+                <div class="rating">
+                    <h3>Valoracion: </h3>
+                    <div class="cafes">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="Carta">
+                <img src="./Media/profile.svg" alt="">
+                <h2>Camilo Gutierrez</h2>
+                <p>Un cafe esplendido para pasar la tarde, mi experiencia en el local fue acogedora para mi y mis amigos, super recomendada la bandeja de cafes para tardear con amigos.</p>
+                <div class="rating">
+                    <h3>Valoracion: </h3>
+                    <div class="cafes">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="Carta">
+                <img src="./Media/profile.svg" alt="">
+                <h2>Valeria Arango</h2>
+                <p>Una experiencia cuanto menos agradable, perfecto para acompañar los ratos de lectura con un sabor acogedor, El cafe guarda un aroma hipnotico que te inspira a darle un buen sorbo.</p>
+                <div class="rating">
+                    <h3>Valoracion: </h3>
+                    <div class="cafes">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="Carta">
+                <img src="./Media/profile.svg" alt="">
+                <h2>Susana Ramirez</h2>
+                <p>Un lugar hermoso, con buena tematica y agradable al entrar, y ni hablemos del esplendido sabor de su cafe que te atrapa apenas lo pruebas, sin dudas de ha vuelto uno de mis cafes favoritos a la hora de tomar el desayuno. </p>
+                <div class="rating">
+                    <h3>Valoracion: </h3>
+                    <div class="cafes">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                        <img src="./Media/coffee-solid.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <!-- ?Fomrulario -->
+
+    <div class="Contacto" id="Contacto">
+
+        <h1>Contactanos</h1>
+
+        <div class="formulario">
+            <form action="https://formsubmit.co/celisgil.santiago.101@gmail.com" method="POST">
+                <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>  
+                <label for="correo">Correo:</label>
+                    <input type="text" id="nombre" name="correo" placeholder="Ingresa tu correo" required>
+                <label for="razon">Razon:</label>
+                    <textarea name="razon" cols="30" rows="10" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="Redes" id="Redes">
+        <div class="iconos">
+            <h2>Nuestras redes sociales</h2>
+            <div class="redes">
+                <a href="">
+                    <img src="./Media/facebook.svg" alt="Facebook">
+                    <h3>Facebook: CafeteriaInventada</h3>
+                </a>
+                <a href="">
+                    <img src="./Media/Insta.svg" alt="Facebook">
+                    <h3>instagram: CafeteriaInventada</h3>
+                </a>
+                <a href="">
+                    <img src="./Media/tiktok.svg" alt="Facebook">
+                    <h3>Facebook: CafeteriaInventada</h3>
+                </a>
+            </div>
+        </div>
+        <div class="mapa">
+            <h2>Nuestra Ubicacion</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d833.7941632243358!2d-75.60200805729345!3d6.235259590726329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429d2a79f487d%3A0xcfa2ba78307ea2c!2sVibras%20Caf%C3%A9!5e0!3m2!1ses-419!2sco!4v1712257119835!5m2!1ses-419!2sco" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="Boton">
+        <a href="#Inicio" class="BotonSubida"><i class="gg-arrow-up"></i></a>
+    </div>
+
+</body>
+
+</html>
